@@ -1,0 +1,17 @@
+name: kemal-multi-path
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+authors:
+  - Serdar Dogruyol <990485+sdogruyol@users.noreply.github.com>
+
+targets:
+  kemal-multi-path:
+    main: backend/src/app.cr
+
+crystal: 1.8.0
+
+license: MIT
